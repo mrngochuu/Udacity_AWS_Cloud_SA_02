@@ -1,0 +1,28 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,14237.960911400001,170855.53,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Inital_Cost_Estimate,US East (N. Virginia),,Amazon EC2 ,0,2453.58,29442.96,USD,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 5), Advance EC2 instance (t3.nano), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), EBS Storage amount (1999 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Inital_Cost_Estimate,US East (N. Virginia),,Amazon EC2 ,0,1078.142,12937.70,USD,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t3.2xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: All other regions (100 TB per month), DT Outbound: Internet (5 TB per month), DT Intra-Region: (5 TB per month)"
+Inital_Cost_Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,3756,45072.00,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (1000 GB), Nodes (3), Instance Type (db.m2.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+Inital_Cost_Estimate,US East (N. Virginia),,VPN Connection,0,932,11184.00,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (10), Number of subnet associations (4)"
+Inital_Cost_Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,37.35,448.20,USD,Number of NAT Gateways (1)
+Inital_Cost_Estimate,US East (N. Virginia),,Transit Gateway,0,367,4404.00,USD,Number of Transit Gateway attachments (10)
+Inital_Cost_Estimate,US East (N. Virginia),,Gateway Load Balancer,0,31.03,372.36,USD,"Number of Availability Zones that Gateway Load Balancer is deployed to (2), Number of Gateway Load Balancer Endpoints (1), Total processed bytes (1 GB per hour), Average number of new connections/flows (1 per second), Average connection/flow duration (1 seconds)"
+Inital_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,1534.8300000000002,18417.96,USD,Number of Application Load Balancers (1)
+Inital_Cost_Estimate,US East (N. Virginia),,Network Load Balancer,0,147.83,1773.96,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (10 GB per hour), Average number of new TCP connections (10 per second), Average TCP connection duration (10 seconds), Processed bytes per NLB for UDP (10 GB per hour), Average number of new UDP Flows (10 per second), Average UDP Flow duration (10 seconds), Processed bytes per NLB for TLS (10 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (10 seconds)"
+Inital_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,500.54,6006.48,USD,S3 Standard storage (10000 GB per month)
+Inital_Cost_Estimate,US East (N. Virginia),,S3 Management and Analytics,0,1553.5,18642.00,USD,"S3 Storage Lens Objects (1000 million per month), S3 Batch Operations Jobs (1000 per month), S3 Batch Operations Objects (1000 million per month), S3 Inventory (1000 million per month), S3 Storage Class Analysis (1000 million per month), S3 Object Tagging (1000 thousand per month)"
+Inital_Cost_Estimate,US East (N. Virginia),,S3 Object Lambda,0,16.7589114,201.11,USD,"GET requests from S3 (10000), Duration that the Lambda function is set to execute per request (in ms) (10000), Amount of memory allocated to the Lambda function (10000 MB), Size of data returned by S3 Object Lambda (10000 KB)"
+Inital_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,102.4,1228.80,USD,"DT Inbound: All other regions (5 TB per month), DT Outbound: All other regions (5 TB per month)"
+Inital_Cost_Estimate,US East (N. Virginia),,Amazon Route 53,0,676,8112.00,USD,"Hosted Zones (2), Additional Records in Hosted Zones (100000), IP (CIDR) blocks (10)"
+Inital_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,1051,12612.00,USD,"Data transfer out to internet (10000 GB per month), Data transfer out to origin (10000 GB per month), Number of requests (HTTPS) (1000000 per month)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
